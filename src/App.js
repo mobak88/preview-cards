@@ -1,8 +1,13 @@
+import GlobalStyle from './GLobalSyles';
+import Theme from './Theme';
+import Card from './components/Card/Card';
+
 function App() {
   return (
-    <div className='App'>
-      <h1>Test</h1>
-    </div>
+    <Theme>
+      <GlobalStyle />
+      <Card />
+    </Theme>
   );
 }
 
